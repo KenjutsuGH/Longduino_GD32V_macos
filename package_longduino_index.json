@@ -25,18 +25,13 @@
                 "toolsDependencies": [
                     {
                         "packager": "Longduino",
-                        "version": "9.2.0",
+                        "version": "10.2.0",
                         "name": "riscv-nuclei-elf-gcc"
                     },
                     {
                         "packager": "Longduino",
-                        "version": "0.1.1",
+                        "version": "0.10.0",
                         "name": "openocd"
-                    },
-                    {
-                        "packager": "Longduino",
-                        "version": "0.1.0",
-                        "name": "gd32vflash"
                     }
                 ]
 
