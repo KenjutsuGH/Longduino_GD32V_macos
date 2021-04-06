@@ -66,18 +66,6 @@
                     "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
                     "size": "3795366"
                 }
-            },
-            {
-                "version": "0.1.0",
-                "name": "gd32vflash",
-                "systems":
-                {
-                    "url": "http://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_GD32V/gd32vflash-0.1.0.zip",
-                    "checksum": "SHA-256:EBD57FD52FD8144F14DA762F735485BE0DA7CC2C3496C5D4031AA3A88BE49C3B",
-                    "host": "i686-mingw32",
-                    "archiveFileName": "gd32vflash-0.1.0.zip",
-                    "size": "161256"
-                }
             }
         ]
     }
