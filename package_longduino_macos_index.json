@@ -14,7 +14,7 @@
                 "name": "Longduino(GD32V)macos",
                 "version": "0.1.1",
                 "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
-                "checksum": "SHA-256:c8fe4a0e5f9f4d3e75dd6a4e32873b7913246dd915c4f87cfaa7106e3280d1a3",
+                "checksum": "SHA-256:541aacebfe41cf14852ccbe7d63536e8875fafe434cecaf11a4b407569df4703",
                 "archiveFileName": "longduino-core-0.1.1.zip",
                 "size": "263516",
                 "architecture": "gd32v",
@@ -74,7 +74,7 @@
                 "systems":
                 {
                     "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/gd32vflash-0.1.0.zip",
-                    "checksum": "SHA-256:60d20d748ed6a4645d8a7b2d073c891ba4adfa6526982ee60cb7e5b495e1f760",
+                    "checksum": "SHA-256:d23b1b05b25e83728c26776898e0a1d03c74b67f5e35c970cec9495493afe11a",
                     "host": "x86_64-apple-darwin",
                     "archiveFileName": "gd32vflash-0.1.0.zip",
                     "size": "70174"
