@@ -13,25 +13,31 @@
                 "category": "GD32V",
                 "name": "Longduino(GD32V)macos",
                 "version": "0.1.1",
-                "url": "http://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_GD32V/longduino-core-0.1.1.zip",
-                "checksum": "SHA-256:05D0A3B46D20F3E528C847229D1583A7209460AC94EFFB652DBEFEBF8C0CE969",
+                "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
+                "checksum": "SHA-256:c8fe4a0e5f9f4d3e75dd6a4e32873b7913246dd915c4f87cfaa7106e3280d1a3",
                 "archiveFileName": "longduino-core-0.1.1.zip",
                 "size": "263516",
                 "architecture": "gd32v",
                 "boards": [
                     {"name": "Sipeed Longan Nano"},
+                    {"name": "Sipeed Longan Nano Lite"},
                     {"name": "GD32VF103 EVAL Board"}
                 ],
                 "toolsDependencies": [
                     {
                         "packager": "Longduino",
-                        "version": "10.2.0",
-                        "name": "riscv-nuclei-elf-gcc"
+                        "version": "8.2.0_20190409",
+                        "name": "riscv64-unknown-elf-gcc"
                     },
                     {
                         "packager": "Longduino",
                         "version": "0.10.0",
                         "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
                     }
                 ]
 
@@ -39,15 +45,15 @@
         ],
         "tools": [
             {
-                "version": "10.2.0",
-                "name":"riscv-nuclei-elf-gcc",
+                "version": "8.2.0_20190409",
+                "name":"riscv64-unknown-elf-gcc",
                 "systems":
-                {					
-                    "url": "file://localhost/Users/pkruger/usys/riscv/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-apple-darwin.zip",
-                    "checksum": "SHA-256:751c23b544d48ebb77b64c04e1787e5b398f20fb3092f9751d9c2037c27b8622",
-                    "host": "x86_64-apple-darwin14",
-                    "archiveFileName": "riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-apple-darwin.zip",
-                    "size": "449481403"
+                {
+                    "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                    "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
+                    "host": "x86_64-apple-darwin",
+                    "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                    "size": "48565570"
                 }
             },
             {
@@ -55,11 +61,23 @@
                 "name": "openocd",
                 "systems":
                 {
-                    "url": "file://localhost/Users/pkruger/usys/riscv/riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
-                    "checksum": "SHA-256:8fe664472ca6d6bf502d6d81fdbf6c62d32b094e94dd69014be79b68752cb346",
-                    "host": "x86_64-apple-darwin14",
-                    "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
-                    "size": "3795366"
+                    "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.tar.gz",
+                    "checksum": "SHA-256:fcc5fd0ac4566fddf599568534101945b48b77099c6ae53197d6bfbf2d04d5ea",
+                    "host": "x86_64-apple-darwin",
+                    "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.tar.gz",
+                    "size": "3025699"
+                }
+            },
+            {
+                "version": "0.1.0",
+                "name": "gd32vflash",
+                "systems":
+                {
+                    "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/gd32vflash-0.1.0.zip",
+                    "checksum": "SHA-256:60d20d748ed6a4645d8a7b2d073c891ba4adfa6526982ee60cb7e5b495e1f760",
+                    "host": "x86_64-apple-darwin",
+                    "archiveFileName": "gd32vflash-0.1.0.zip",
+                    "size": "70174"
                 }
             }
         ]
