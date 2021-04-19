@@ -16,7 +16,7 @@
                 "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
                 "checksum": "SHA-256:541aacebfe41cf14852ccbe7d63536e8875fafe434cecaf11a4b407569df4703",
                 "archiveFileName": "longduino-core-0.1.1.zip",
-                "size": "263516",
+                "size": "265635",
                 "architecture": "gd32v",
                 "boards": [
                     {"name": "Sipeed Longan Nano"},
@@ -65,7 +65,7 @@
                     "checksum": "SHA-256:9e2af2bfbd42ed99dff301ef3e577508905caa1f2e37062fa349892a48ca0e2b",
                     "host": "x86_64-apple-darwin",
                     "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
-                    "size": "4201418"
+                    "size": "3736637"
                 }
             },
             {
@@ -77,7 +77,7 @@
                     "checksum": "SHA-256:d23b1b05b25e83728c26776898e0a1d03c74b67f5e35c970cec9495493afe11a",
                     "host": "x86_64-apple-darwin",
                     "archiveFileName": "gd32vflash-0.1.0.zip",
-                    "size": "70174"
+                    "size": "66371"
                 }
             }
         ]
