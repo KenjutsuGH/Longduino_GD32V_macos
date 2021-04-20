@@ -26,7 +26,7 @@
                 "toolsDependencies": [
                     {
                         "packager": "Longduino",
-                        "version": "8.2.0_20190409",
+                        "version": "10.2.0-2020.12.8",
                         "name": "riscv64-unknown-elf-gcc"
                     },
                     {
@@ -46,14 +46,14 @@
         "tools": [
             {
                 "name": "riscv64-unknown-elf-gcc",
-                "version": "8.2.0_20190409",
+                "version": "10.2.0-2020.12.8",
                 "systems":
                 [
                     {
-                        "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
-                        "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
+                        "url": "https://static.dev.sifive.com/dev-tools/freedom-tools/v2020.12/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-apple-darwin.tar.gz",
+                        "checksum": "SHA-256:d0fc75a76cb2873576bc49f0014011de4dac24cd63ce4c67c985aa37167cf730",
                         "host": "x86_64-apple-darwin",
-                        "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                        "archiveFileName": "riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-apple-darwin.tar.gz",
                         "size": "48565570"
                     }
                 ]
