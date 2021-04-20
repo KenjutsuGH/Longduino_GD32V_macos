@@ -63,11 +63,11 @@
                 "name": "openocd",
                 "systems":
                 {
-                    "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
-                    "checksum": "SHA-256:b859b23a6db4f91bae36b79899970a838ce5bb24d37d827d94b72454760735a3",
+                    "url": "https://static.dev.sifive.com/dev-tools/freedom-tools/v2020.12/riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.tar.gz",
+                    "checksum": "SHA-256:fcc5fd0ac4566fddf599568534101945b48b77099c6ae53197d6bfbf2d04d5ea",
                     "host": "x86_64-apple-darwin",
-                    "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
-                    "size": "3709515"
+                    "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.tar.gz",
+                    "size": "3295064"
                 }
             },
             {
