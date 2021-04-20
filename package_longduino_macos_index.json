@@ -26,7 +26,7 @@
                 "toolsDependencies": [
                     {
                         "packager": "Longduino",
-                        "version": "10.2.0-2020.12.8",
+                        "version": "8.2.0-2019.05.3",
                         "name": "riscv64-unknown-elf-gcc"
                     },
                     {
@@ -46,15 +46,15 @@
         "tools": [
             {
                 "name": "riscv64-unknown-elf-gcc",
-                "version": "10.2.0-2020.12.8",
+                "version": "8.2.0-2019.05.3",
                 "systems":
                 [
                     {
-                        "url": "https://static.dev.sifive.com/dev-tools/freedom-tools/v2020.12/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-apple-darwin.tar.gz",
-                        "checksum": "SHA-256:d0fc75a76cb2873576bc49f0014011de4dac24cd63ce4c67c985aa37167cf730",
+                        "url": "https://static.dev.sifive.com/dev-tools/riscv64-unknown-elf-gcc-8.2.0-2019.05.3-x86_64-apple-darwin.tar.gz",
+                        "checksum": "SHA-256:027bea47be0af509ea5f7615858f11bb92cf0a9a2a1a5978a92c329592baf73c",
                         "host": "x86_64-apple-darwin",
-                        "archiveFileName": "riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-apple-darwin.tar.gz",
-                        "size": "48565570"
+                        "archiveFileName": "riscv64-unknown-elf-gcc-8.2.0-2019.05.3-x86_64-apple-darwin.tar.gz",
+                        "size": "148289892"
                     }
                 ]
             },
@@ -63,11 +63,11 @@
                 "name": "openocd",
                 "systems":
                 {
-                    "url": "https://static.dev.sifive.com/dev-tools/freedom-tools/v2020.12/riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.tar.gz",
-                    "checksum": "SHA-256:fcc5fd0ac4566fddf599568534101945b48b77099c6ae53197d6bfbf2d04d5ea",
+                    "url": "https://static.dev.sifive.com/dev-tools/riscv-openocd-0.10.0-2019.05.1-x86_64-apple-darwin.tar.gz",
+                    "checksum": "SHA-256:f995199d71fcafa10d4c3efbbea4ab95da5fca297b4bb7d06d43cf252b5b3c97",
                     "host": "x86_64-apple-darwin",
-                    "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.tar.gz",
-                    "size": "3295064"
+                    "archiveFileName": "riscv-openocd-0.10.0-2019.05.1-x86_64-apple-darwin.tar.gz",
+                    "size": "3053384"
                 }
             },
             {
