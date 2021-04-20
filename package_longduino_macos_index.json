@@ -11,7 +11,7 @@
         "platforms": [
             {
                 "category": "GD32V",
-                "name": "Longduino(GD32V) macos",
+                "name": "Longduino(GD32V) for macOS",
                 "version": "0.1.1",
                 "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
                 "checksum": "SHA-256:d5cc71818236fd8126e8021b9d93e6b2b86af2c27091d761b4d020e73b388e6e",
@@ -45,16 +45,18 @@
         ],
         "tools": [
             {
+                "name": "riscv64-unknown-elf-gcc",
                 "version": "8.2.0_20190409",
-                "name":"riscv64-unknown-elf-gcc",
                 "systems":
-                {
-                    "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
-                    "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
-                    "host": "x86_64-apple-darwin",
-                    "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
-                    "size": "48565570"
-                }
+                [
+                    {
+                        "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                        "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
+                        "host": "x86_64-apple-darwin",
+                        "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                        "size": "48565570"
+                    }
+                ]
             },
             {
                 "version": "0.10.0",
