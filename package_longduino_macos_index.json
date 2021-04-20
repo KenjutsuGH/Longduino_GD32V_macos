@@ -76,10 +76,10 @@
                 "systems":
                 {
                     "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/gd32vflash-0.1.0.zip",
-                    "checksum": "SHA-256:d84d30cb084846e3e703527a6bdf01532c5d497cc856357125d3bfaf998fe612",
+                    "checksum": "SHA-256:b2a82ccc59fe2770a8424db3e2ffb28e5081581f5cb5bb5b9d75cd366c521a3b",
                     "host": "x86_64-apple-darwin",
                     "archiveFileName": "gd32vflash-0.1.0.zip",
-                    "size": "66371"
+                    "size": "65919"
                 }
             }
         ]
