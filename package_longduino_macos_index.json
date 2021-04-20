@@ -14,9 +14,9 @@
                 "name": "Longduino(GD32V) for macOS",
                 "version": "0.1.1",
                 "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
-                "checksum": "SHA-256:d5cc71818236fd8126e8021b9d93e6b2b86af2c27091d761b4d020e73b388e6e",
+                "checksum": "SHA-256:d831b1856a914a4806b3c808a182d5c12e19656392ea23e95bf66b320f865216",
                 "archiveFileName": "longduino-core-0.1.1.zip",
-                "size": "263955",
+                "size": "259633",
                 "architecture": "gd32v",
                 "boards": [
                     {"name": "Sipeed Longan Nano"},
@@ -64,10 +64,10 @@
                 "systems":
                 {
                     "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
-                    "checksum": "SHA-256:567ec6494b45cf4e22945d87d8412631397010fe9df96a7a100a112602d0c427",
+                    "checksum": "SHA-256:b859b23a6db4f91bae36b79899970a838ce5bb24d37d827d94b72454760735a3",
                     "host": "x86_64-apple-darwin",
                     "archiveFileName": "riscv-openocd-0.10.0-2020.12.1-x86_64-apple-darwin.zip",
-                    "size": "3638401"
+                    "size": "3709515"
                 }
             },
             {
@@ -76,10 +76,10 @@
                 "systems":
                 {
                     "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/gd32vflash-0.1.0.zip",
-                    "checksum": "SHA-256:eaca5774daeacb51e8edce6f7b64aae5d2ace57bb610adca472e8e10371e8522",
+                    "checksum": "SHA-256:d84d30cb084846e3e703527a6bdf01532c5d497cc856357125d3bfaf998fe612",
                     "host": "x86_64-apple-darwin",
                     "archiveFileName": "gd32vflash-0.1.0.zip",
-                    "size": "66251"
+                    "size": "66371"
                 }
             }
         ]
