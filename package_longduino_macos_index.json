@@ -28,7 +28,7 @@
                     {
                         "packager": "Longduino",
                         "version": "8.2.0-2019.05.3",
-                        "name": "riscv64-unknown-elf-gcc"
+                        "name": "riscv64-unknown-elf-gccPK"
                     },
                     {
                         "packager": "Longduino",
