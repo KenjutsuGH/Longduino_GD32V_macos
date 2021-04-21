@@ -15,13 +15,14 @@
                 "version": "0.1.1",
                 "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.0.zip",
                 "checksum": "SHA-256:81221c22830be811c0c4429d2ea3da40467716866523c518fe80059d64e591ff",
-                "archiveFileName": "longduino-core-0.1.1.zip",
+                "archiveFileName": "longduino-core-0.1.0.zip",
                 "size": "277565",
                 "architecture": "gd32v",
                 "boards": [
                     {"name": "Sipeed Longan Nano"},
                     {"name": "Sipeed Longan Nano Lite"},
                     {"name": "GD32VF103 EVAL Board"}
+                    {"name": "Seeed Wio Lite Risc-V"}
                 ],
                 "toolsDependencies": [
                     {

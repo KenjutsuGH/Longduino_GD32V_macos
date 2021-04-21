@@ -1,5 +1,5 @@
-#ifndef _VARIANT_SIPEED_LONGAN_NANO
-#define _VARIANT_SIPEED_LONGAN_NANO
+#ifndef _VARIANT_SIPEED_LONGAN_NANO_LITE
+#define _VARIANT_SIPEED_LONGAN_NANO_LITE
 
 #include "Arduino.h"
 #include "gd32vf103.h"
