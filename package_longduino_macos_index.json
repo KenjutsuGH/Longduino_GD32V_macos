@@ -13,10 +13,10 @@
                 "category": "GD32V",
                 "name": "Longduino(GD32V) for macOS using gcc 8.2.0-2019.05.3",
                 "version": "0.1.1",
-                "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
-                "checksum": "SHA-256:6132dc0d63e219e9449735bc761a1c28eed4485ab75f984fc55f548ef562e731",
+                "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.0.zip",
+                "checksum": "SHA-256:81221c22830be811c0c4429d2ea3da40467716866523c518fe80059d64e591ff",
                 "archiveFileName": "longduino-core-0.1.1.zip",
-                "size": "259636",
+                "size": "277565",
                 "architecture": "gd32v",
                 "boards": [
                     {"name": "Sipeed Longan Nano"},
