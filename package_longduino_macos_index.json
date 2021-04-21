@@ -11,7 +11,7 @@
         "platforms": [
             {
                 "category": "GD32V",
-                "name": "Longduino(GD32V) for macOS using gcc 8.2.0-2019.05.3",
+                "name": "Longduino(GD32V)",
                 "version": "0.1.1",
                 "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.0.zip",
                 "checksum": "SHA-256:0c8bdaef799da5e961e77212bd6d17933ef711dd8225a3426864678cc96ab53a",
