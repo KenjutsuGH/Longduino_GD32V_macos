@@ -55,7 +55,7 @@ nanolite.build.pid=0189
 
 ## Toolchain
 nanolite.menu.toolsloc.default=Default
-nanolite.menu.toolsloc.default.compiler.path={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
+nanolite.menu.toolsloc.default.compiler.path={runtime.tools.riscv-nuclei-elf-gcc.path}/bin/
 
 ## CPU Clock
 nanolite.menu.clksrc.108=108MHz CPU Clock Frequency
