@@ -27,8 +27,8 @@
                 "toolsDependencies": [
                     {
                         "packager": "Longduino",
-                        "version": "8.2.0-2019.05.3",
-                        "name": "riscv64-unknown-elf-gccPK"
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
                     },
                     {
                         "packager": "Longduino",
@@ -46,8 +46,8 @@
         ],
         "tools": [
             {
-                "name": "riscv64-unknown-elf-gcc",
-                "version": "8.2.0-2019.05.3",
+                "name": "riscv-nuclei-elf-gcc",
+                "version": "9.2.0",
                 "systems":
                 [
                     {
@@ -56,7 +56,14 @@
                         "host": "x86_64-apple-darwin",
                         "archiveFileName": "riscv64-unknown-elf-gcc-8.2.0-2019.05.3-x86_64-apple-darwin.tar.gz",
                         "size": "148289892"
-                    }
+                    },
+					{
+						"url": "http://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_GD32V/riscv-nuclei-elf-gcc-9.2.0.zip",
+						"checksum": "SHA-256:6BCED9A76D1D2A662F3F439ABA370290924A0482BB675317CFFEF05F7FC46E75",
+						"host": "i686-mingw32",
+						"archiveFileName": "riscv-nuclei-elf-gcc-9.2.0.zip",
+						"size": "122883738"
+					}                    
                 ]
             },
             {
