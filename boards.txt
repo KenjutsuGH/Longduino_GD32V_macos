@@ -14,6 +14,7 @@ nano.build.pid=0189
 ## Toolchain
 nano.menu.toolsloc.default=Default
 nano.menu.toolsloc.default.compiler.path={runtime.tools.riscv-nuclei-elf-gcc.path}/bin/
+nano.menu.toolsloc.default.compiler.path.macosx={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
 
 ## CPU Clock
 nano.menu.clksrc.108=108MHz CPU Clock Frequency
@@ -56,6 +57,7 @@ nanolite.build.pid=0189
 ## Toolchain
 nanolite.menu.toolsloc.default=Default
 nanolite.menu.toolsloc.default.compiler.path={runtime.tools.riscv-nuclei-elf-gcc.path}/bin/
+nanolite.menu.toolsloc.default.compiler.path.macosx={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
 
 ## CPU Clock
 nanolite.menu.clksrc.108=108MHz CPU Clock Frequency
@@ -95,6 +97,7 @@ eval.name=GD32VF103 EVAL Board
 ## Toolchain
 eval.menu.toolsloc.default=Default
 eval.menu.toolsloc.default.compiler.path={runtime.tools.riscv-nuclei-elf-gcc.path}/bin/
+eval.menu.toolsloc.default.compiler.path.macosx={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
 
 ## CPU Clock
 eval.menu.clksrc.108=108MHz CPU Clock Frequency
@@ -137,6 +140,7 @@ wio_lite-risc-v.build.pid=0189
 ## Toolchain
 wio_lite-risc-v.menu.toolsloc.default=Default
 wio_lite-risc-v.menu.toolsloc.default.compiler.path={runtime.tools.riscv-nuclei-elf-gcc.path}/bin/
+wio_lite-risc-v.menu.toolsloc.default.compiler.path.macosx={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
 
 ## CPU Clock
 wio_lite-risc-v.menu.clksrc.108=108MHz CPU Clock Frequency
