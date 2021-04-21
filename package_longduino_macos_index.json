@@ -13,9 +13,9 @@
                 "category": "GD32V",
                 "name": "Longduino(GD32V)",
                 "version": "0.1.1",
-                "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.0.zip",
+                "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
                 "checksum": "SHA-256:0c8bdaef799da5e961e77212bd6d17933ef711dd8225a3426864678cc96ab53a",
-                "archiveFileName": "longduino-core-0.1.0.zip",
+                "archiveFileName": "longduino-core-0.1.1.zip",
                 "size": "263482",
                 "architecture": "gd32v",
                 "boards": [
