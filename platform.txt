@@ -13,6 +13,16 @@ compiler.objcopy.cmd=riscv-nuclei-elf-objcopy
 compiler.elf2hex.cmd=riscv-nuclei-elf-objcopy
 compiler.size.cmd=riscv-nuclei-elf-size
 
+## GCC tools path for macOS
+compiler.path.macos={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
+compiler.c.cmd.macos=riscv64-unknown-elf-gcc
+compiler.cpp.cmd.macos=riscv64-unknown-elf-g++
+compiler.ld.cmd.macos=riscv64-unknown-elf-ld
+compiler.ar.cmd.macos=riscv64-unknown-elf-gcc-ar
+compiler.objcopy.cmd.macos=riscv64-unknown-elf-objcopy
+compiler.elf2hex.cmd.macos=riscv64-unknown-elf-objcopy
+compiler.size.cmd.macos=riscv64-unknown-elf-size
+
 ## C CODE path
 compiler.sdk.path={runtime.platform.path}/cores/arduino/GD32VF103_Firmware_Library
 compiler.cores.path={runtime.platform.path}/cores/arduino
@@ -106,5 +116,6 @@ tools.serial.program.pattern="{path}{cmd}" -g 0x08000000 -b {build.burn_baudrate
 
 ## DFU 
 tools.dfu.cmd=dfu-util
+tools.dfu.cmd.macos=dfu-util.sh
 tools.dfu.path={runtime.tools.gd32vflash.path}/
 tools.dfu.program.pattern="{path}{cmd}" -d {build.vid}:{build.pid} -a 0 --dfuse-address 0x08000000:leave -D "{build.path}/{build.project_name}.bin"
