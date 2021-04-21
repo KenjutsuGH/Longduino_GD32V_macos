@@ -14,7 +14,7 @@ compiler.elf2hex.cmd=riscv-nuclei-elf-objcopy
 compiler.size.cmd=riscv-nuclei-elf-size
 
 ## GCC tools path for macOS
-compiler.path.macosx={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
+#compiler.path.macosx={runtime.tools.riscv64-unknown-elf-gcc.path}/bin/
 compiler.c.cmd.macosx=riscv64-unknown-elf-gcc
 compiler.cpp.cmd.macosx=riscv64-unknown-elf-g++
 compiler.ld.cmd.macosx=riscv64-unknown-elf-ld
