@@ -21,7 +21,7 @@
                 "boards": [
                     {"name": "Sipeed Longan Nano"},
                     {"name": "Sipeed Longan Nano Lite"},
-                    {"name": "GD32VF103 EVAL Board"}
+                    {"name": "GD32VF103 EVAL Board"},
                     {"name": "Seeed Wio Lite Risc-V"}
                 ],
                 "toolsDependencies": [
