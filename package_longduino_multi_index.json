@@ -404,6 +404,13 @@
                     "host": "arm-linux-gnueabihf",
                     "archiveFileName": "riscv-nuclei-elf-gcc-9.2.0-linux-armv7l.tar.gz",
                     "size": "126668683"
+                },
+                {
+                    "url": "https://static.dev.sifive.com/dev-tools/riscv64-unknown-elf-gcc-8.2.0-2019.05.3-x86_64-apple-darwin.tar.gz",
+                    "checksum": "SHA-256:027bea47be0af509ea5f7615858f11bb92cf0a9a2a1a5978a92c329592baf73c",
+                    "host": "x86_64-apple-darwin",
+                    "archiveFileName": "riscv64-unknown-elf-gcc-8.2.0-2019.05.3-x86_64-apple-darwin.tar.gz",
+                    "size": "148289892"
                 }
                 ]
             },
@@ -438,7 +445,14 @@
                     "host": "arm-linux-gnueabihf",
                     "archiveFileName": "tools-openocd-0.1.2-linux-armv7l.tar.gz",
                     "size": "6477144"
-                }
+                },
+				{
+					"url": "https://static.dev.sifive.com/dev-tools/riscv-openocd-0.10.0-2019.05.1-x86_64-apple-darwin.tar.gz",
+					"checksum": "SHA-256:f995199d71fcafa10d4c3efbbea4ab95da5fca297b4bb7d06d43cf252b5b3c97",
+					"host": "x86_64-apple-darwin",
+					"archiveFileName": "riscv-openocd-0.10.0-2019.05.1-x86_64-apple-darwin.tar.gz",
+					"size": "3053384"
+				}
                 ]
             },
             {
@@ -506,7 +520,14 @@
                     "host": "arm-linux-gnueabihf",
                     "archiveFileName": "gd32vflash-0.1.3-linux-armv7l.tar.gz",
                     "size": "139334"
-                }
+                },
+				{
+					"url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/gd32vflash-0.1.0.tar.gz",
+					"checksum": "SHA-256:bf90dbbff6db49923bd97bd2b2c53e7376e118a266dcaec0c43801d4c506c640",
+					"host": "x86_64-apple-darwin",
+					"archiveFileName": "gd32vflash-0.1.0.tar.gz",
+					"size": "60039"
+				}
                 ]
             },
             {
