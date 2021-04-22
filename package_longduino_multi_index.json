@@ -1,0 +1,583 @@
+{
+    "packages": [
+    {
+        "name": "Longduino",
+        "maintainer": "Sipeed",
+        "websiteURL": "https://www.sipeed.com",
+        "email": "bits@sipeed.com",
+        "help": {
+            "online": "https://www.sipeed.com"
+        },
+       "platforms": [
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.2.1",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.2.1.zip",
+                "checksum": "SHA-256:5E6A92DEF7E880ED476DE37EA3298DFF7D02ECCC0F9F328A81702AF7B3509671",
+                "archiveFileName": "longduino-core-0.2.1.zip",
+                "size": "6755271",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Wio Lite Risc-V"},
+                    {"name": "GD32 RISC-V Dev Board"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.2",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.3",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.2.0",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.2.0.zip",
+                "checksum": "SHA-256:8F1CC8541ACAA2656AC5F69A5B142DD745C9B255822FCC8365DFAFCA55EA179D",
+                "archiveFileName": "longduino-core-0.2.0.zip",
+                "size": "6715760",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Wio Lite Risc-V"},
+                    {"name": "GD32 RISC-V Dev Board"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.2",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.3",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.9",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.9.zip",
+                "checksum": "SHA-256:7A2D805AEA036A4C1460E01D0B0331700F60E59261E001DDA2B9C99E877D4722",
+                "archiveFileName": "longduino-core-0.1.9.zip",
+                "size": "6691960",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Wio Lite Risc-V"},
+                    {"name": "GD32 RISC-V Dev Board"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.8",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.8.zip",
+                "checksum": "SHA-256:A295100111DBD62E7154424CFFC9B10B52BEEB7B22C21E1E22A21A777AF5AC4C",
+                "archiveFileName": "longduino-core-0.1.8.zip",
+                "size": "1734361",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Wio Lite Risc-V"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.7",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.7.zip",
+                "checksum": "SHA-256:B28BE5A49755A0519CB291B83AD4DAA60B5504A5504F4CFD21D0239119EE7EBA",
+                "archiveFileName": "longduino-core-0.1.7.zip",
+                "size": "1723995",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Wio Lite Risc-V"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.6",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.6.zip",
+                "checksum": "SHA-256:07148D75AA82CCB5D808C9240D0E24E91D35A79089A24E91580B7FE2B0745A19",
+                "archiveFileName": "longduino-core-0.1.6.zip",
+                "size": "1721295",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Wio Lite Risc-V"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.5",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.5.zip",
+                "checksum": "SHA-256:75D757C7491E1C0DC385FC886ECF05C037EE813E991E6F7B4860CBAF686CAC55",
+                "archiveFileName": "longduino-core-0.1.5.zip",
+                "size": "1721466",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Wio Lite Risc-V"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.4",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.4.zip",
+                "checksum": "SHA-256:58C4467073BAF45DA4D0FB797AA264A9A34C947BBADBAF69C67452F39F20E35B",
+                "archiveFileName": "longduino-core-0.1.4.zip",
+                "size": "1531498",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.3",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.3.zip",
+                "checksum": "SHA-256:B80C55F7693320BBAA51339F2774D7D85A29284D547334463662A44C8B3F5AC7",
+                "archiveFileName": "longduino-core-0.1.3.zip",
+                "size": "1322790",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.2",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.2.zip",
+                "checksum": "SHA-256:3D34E3F1631E6233F6551B67B3B9F652633532DDF86AAAC1405F361CCA4D201E",
+                "archiveFileName": "longduino-core-0.1.2.zip",
+                "size": "977741",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            },
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.1",
+                "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/cores/longduino-core-0.1.1.zip",
+                "checksum": "SHA-256:05D0A3B46D20F3E528C847229D1583A7209460AC94EFFB652DBEFEBF8C0CE969",
+                "archiveFileName": "longduino-core-0.1.1.zip",
+                "size": "263516",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "GD32VF103 EVAL Board"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.1",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            }
+        ],
+        "tools": [
+            {
+                "version": "9.2.0",
+                "name":"riscv-nuclei-elf-gcc",
+                "systems": [
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/win/riscv-nuclei-elf-gcc-9.2.0.zip",
+                    "checksum": "SHA-256:6BCED9A76D1D2A662F3F439ABA370290924A0482BB675317CFFEF05F7FC46E75",
+                    "host": "i686-mingw32",
+                    "archiveFileName": "riscv-nuclei-elf-gcc-9.2.0.zip",
+                    "size": "122883738"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/riscv-nuclei-elf-gcc-9.2.0-linux-x86_64.tar.gz",
+                    "checksum": "SHA-256:CFA44AD41DBD4DC8E4028258FE86D80B4D262403FD921A8D9FEEACE40A89B961",
+                    "host": "x86_64-linux-gnu",
+                    "archiveFileName": "riscv-nuclei-elf-gcc-9.2.0-linux-x86_64.tar.gz",
+                    "size": "129959924"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/riscv-nuclei-elf-gcc-9.2.0-linux-aarch64.tar.gz",
+                    "checksum": "SHA-256:5ADD798E5A90BB3F2382A9D7ABE1FDC4A3E0A149F0427E7D539614B70B2ADE72",
+                    "host": "aarch64-linux-gnu",
+                    "archiveFileName": "riscv-nuclei-elf-gcc-9.2.0-linux-aarch64.tar.gz",
+                    "size": "130760101"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/riscv-nuclei-elf-gcc-9.2.0-linux-armv7l.tar.gz",
+                    "checksum": "SHA-256:537C13A314F3CB2A978881F7F52D011207A1D919C55877ADF48F31A771E74897",
+                    "host": "arm-linux-gnueabihf",
+                    "archiveFileName": "riscv-nuclei-elf-gcc-9.2.0-linux-armv7l.tar.gz",
+                    "size": "126668683"
+                }
+                ]
+            },
+            {
+                "version": "0.1.2",
+                "name": "openocd",
+                "systems": [
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/win/tools-openocd-0.1.2.zip",
+                    "checksum": "SHA-256:45F5C0D471CC55CA04B778C181D486A6D977D35FEC20ECDCAB6F2CA4C0BFE565",
+                    "host": "i686-mingw32",
+                    "archiveFileName": "tools-openocd-0.1.2.zip",
+                    "size": "3025699"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/tools-openocd-0.1.2-linux-x86_64.tar.gz",
+                    "checksum": "SHA-256:29D3EB106A11FCCFC96EC7861A8C4247768813426BA647008691A760B1E6008B",
+                    "host": "x86_64-linux-gnu",
+                    "archiveFileName": "tools-openocd-0.1.2-linux-x86_64.tar.gz",
+                    "size": "6292121"
+               },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/tools-openocd-0.1.2-linux-aarch64.tar.gz",
+                    "checksum": "SHA-256:5E85592B5E94DF96115AED744CAF849EE25A980DBA21393B03F3661C3BC5A659",
+                    "host": "aarch64-linux-gnu",
+                    "archiveFileName": "tools-openocd-0.1.2-linux-aarch64.tar.gz",
+                    "size": "6324138"
+               },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/tools-openocd-0.1.2-linux-armv7l.tar.gz",
+                    "checksum": "SHA-256:31CA62D6E873E34AB8FE693598327254D63C98B77053DA752F9B9B1D1083B11F",
+                    "host": "arm-linux-gnueabihf",
+                    "archiveFileName": "tools-openocd-0.1.2-linux-armv7l.tar.gz",
+                    "size": "6477144"
+                }
+                ]
+            },
+            {
+                "version": "0.1.1",
+                "name": "openocd",
+                "systems": [
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/win/tools-openpcd-0.1.1.zip",
+                    "checksum": "SHA-256:45F5C0D471CC55CA04B778C181D486A6D977D35FEC20ECDCAB6F2CA4C0BFE565",
+                    "host": "i686-mingw32",
+                    "archiveFileName": "tools-openocd-0.1.1.zip",
+                    "size": "3025699"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/tools-openpcd-0.1.1-linux-x86_64.tar.gz",
+                    "checksum": "SHA-256:EAE9B5BC987DFA08F3AB4915F5BA74EBC35EF6F5DA05695A9D56A13FC64554FA",
+                    "host": "x86_64-linux-gnu",
+                    "archiveFileName": "tools-openpcd-0.1.1-linux-x86_64.tar.gz",
+                    "size": "6221925"
+               },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/tools-openpcd-0.1.1-linux-aarch64.tar.gz",
+                    "checksum": "SHA-256:100E2428EF8D312032CB4FDD4FF0DC3ED8493B72A5092DA72A1D4022CE88FB95",
+                    "host": "aarch64-linux-gnu",
+                    "archiveFileName": "tools-openpcd-0.1.1-linux-aarch64.tar.gz",
+                    "size": "6253604"
+               },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/tools-openpcd-0.1.1-linux-armv7l.tar.gz",
+                    "checksum": "SHA-256:0935EC2FB95E52E1436EA1EF215D98E6B4C78F620021213A976C1FF6DC50DAAB",
+                    "host": "arm-linux-gnueabihf",
+                    "archiveFileName": "tools-openpcd-0.1.1-linux-armv7l.tar.gz",
+                    "size": "6406306"
+                }
+                ]
+            },
+            {
+                "version": "0.1.3",
+                "name": "gd32vflash",
+                "systems": [
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/win/gd32vflash-0.1.3.zip",
+                    "checksum": "SHA-256:0D28B9575522357AE4D917FC176D4B71988EF8D92CFFD06FBAF1A12A35F99C5A",
+                    "host": "i686-mingw32",
+                    "archiveFileName": "gd32vflash-0.1.3.zip",
+                    "size": "175526"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.3-linux-x86_64.tar.gz",
+                    "checksum": "SHA-256:993A5F6825CBF912C0710BA8C951574F7A017D3DCC2863053DB040E8CF6B6A9F",
+                    "host": "x86_64-linux-gnu",
+                    "archiveFileName": "gd32vflash-0.1.3-linux-x86_64.tar.gz",
+                    "size": "147366"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.3-linux-aarch64.tar.gz",
+                    "checksum": "SHA-256:EC7556A82D3094C7C26768EB6E9BA54B1A07111BBBC1782352416F33C014D725",
+                    "host": "aarch64-linux-gnu",
+                    "archiveFileName": "gd32vflash-0.1.3-linux-aarch64.tar.gz",
+                    "size": "145467"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.3-linux-armv7l.tar.gz",
+                    "checksum": "SHA-256:6D9104044FF7493E7F63D586DBE606EDF25C97C3892AA92559B821EEDDED3704",
+                    "host": "arm-linux-gnueabihf",
+                    "archiveFileName": "gd32vflash-0.1.3-linux-armv7l.tar.gz",
+                    "size": "139334"
+                }
+                ]
+            },
+            {
+                "version": "0.1.2",
+                "name": "gd32vflash",
+                "systems": [
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/win/gd32vflash-0.1.2.zip",
+                    "checksum": "SHA-256:0D28B9575522357AE4D917FC176D4B71988EF8D92CFFD06FBAF1A12A35F99C5A",
+                    "host": "i686-mingw32",
+                    "archiveFileName": "gd32vflash-0.1.2.zip",
+                    "size": "175526"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.2-linux-x86_64.tar.gz",
+                    "checksum": "SHA-256:9D5C0AAC0A7E8B4095E3F8C086336F3F06583FEEFE7D087969B34E41B5831DBD",
+                    "host": "x86_64-linux-gnu",
+                    "archiveFileName": "gd32vflash-0.1.2-linux-x86_64.tar.gz",
+                    "size": "147183"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.2-linux-aarch64.tar.gz",
+                    "checksum": "SHA-256:1113B73604822495115026C884F58CF7F14720386F9E15FE10FD36724B509E41",
+                    "host": "aarch64-linux-gnu",
+                    "archiveFileName": "gd32vflash-0.1.2-linux-aarch64.tar.gz",
+                    "size": "145090"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.2-linux-armv7l.tar.gz",
+                    "checksum": "SHA-256:6A3E85544246DE84F2CEBA970513D2035496B642584F203518BCA353ECE904D9",
+                    "host": "arm-linux-gnueabihf",
+                    "archiveFileName": "gd32vflash-0.1.2-linux-armv7l.tar.gz",
+                    "size": "139174"
+                }
+                ]
+            },
+            {
+                "version": "0.1.0",
+                "name": "gd32vflash",
+                "systems": [
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/win/gd32vflash-0.1.0.zip",
+                    "checksum": "SHA-256:0D28B9575522357AE4D917FC176D4B71988EF8D92CFFD06FBAF1A12A35F99C5A",
+                    "host": "i686-mingw32",
+                    "archiveFileName": "gd32vflash-0.1.0.zip",
+                    "size": "175526"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.0-linux-x86_64.tar.gz",
+                    "checksum": "SHA-256:3DB892027210D6F6F25FC21DCC084371E624917C262B9981DBE81AE6EEDB0A47",
+                    "host": "x86_64-linux-gnu",
+                    "archiveFileName": "gd32vflash-0.1.0-linux-x86_64.tar.gz",
+                    "size": "110409"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.0-linux-aarch64.tar.gz",
+                    "checksum": "SHA-256:DB8932087B5C003E39C5BA8719227F8E1DE184EB801E8E9D87F8BDE900112E63",
+                    "host": "aarch64-linux-gnu",
+                    "archiveFileName": "gd32vflash-0.1.0-linux-aarch64.tar.gz",
+                    "size": "110010"
+                },
+                {
+                    "url": "https://seafile.servator.de/sbc/LONGAN/Longduino/tools/linux/gd32vflash-0.1.0-linux-armv7l.tar.gz",
+                    "checksum": "SHA-256:FCD8477356C3922BD54B38CC96573471638EC72FC29734ED4C6AEE7B39381F8B",
+                    "host": "arm-linux-gnueabihf",
+                    "archiveFileName": "gd32vflash-0.1.0-linux-armv7l.tar.gz",
+                    "size": "101198"
+                }
+                ]
+            }
+        ]
+    }
+    ]
+}
