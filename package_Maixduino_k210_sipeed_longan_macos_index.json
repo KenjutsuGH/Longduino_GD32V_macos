@@ -1,0 +1,93 @@
+{
+    "packages": [
+    {
+        "name": "Longduino",
+        "maintainer": "Sipeed",
+        "websiteURL": "https://www.sipeed.com",
+        "email": "bits@sipeed.com",
+        "help": {
+            "online": "https://www.sipeed.com"
+        },
+        "platforms": [
+            {
+                "category": "GD32V",
+                "name": "Longduino(GD32V)",
+                "version": "0.1.1",
+                "url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/longduino-core-0.1.1.zip",
+                "checksum": "SHA-256:5769dc3144fb04d6bc629a30fe5487f7fcbbaa7a1220a400cb5424b00b4acd92",
+                "archiveFileName": "longduino-core-0.1.1.zip",
+                "size": "263450",
+                "architecture": "gd32v",
+                "boards": [
+                    {"name": "Sipeed Longan Nano"},
+                    {"name": "Sipeed Longan Nano Lite"},
+                    {"name": "GD32VF103 EVAL Board"},
+                    {"name": "Seeed Wio Lite Risc-V"}
+                ],
+                "toolsDependencies": [
+                    {
+                        "packager": "Longduino",
+                        "version": "9.2.0",
+                        "name": "riscv-nuclei-elf-gcc"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.10.0",
+                        "name": "openocd"
+                    },
+                    {
+                        "packager": "Longduino",
+                        "version": "0.1.0",
+                        "name": "gd32vflash"
+                    }
+                ]
+
+            }
+        ],
+        "tools": [
+            {
+                "name": "riscv-nuclei-elf-gcc",
+                "version": "9.2.0",
+                "systems":
+                [
+                    {
+                        "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                        "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
+                        "host": "x86_64-apple-darwin",
+                        "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                        "size": "48565570"
+                    }                  
+                ]
+            },
+            {
+                "version": "0.10.0",
+                "name": "openocd",
+                "systems":
+                [
+					{
+						"url": "https://static.dev.sifive.com/dev-tools/riscv-openocd-0.10.0-2019.05.1-x86_64-apple-darwin.tar.gz",
+						"checksum": "SHA-256:f995199d71fcafa10d4c3efbbea4ab95da5fca297b4bb7d06d43cf252b5b3c97",
+						"host": "x86_64-apple-darwin",
+						"archiveFileName": "riscv-openocd-0.10.0-2019.05.1-x86_64-apple-darwin.tar.gz",
+						"size": "3053384"
+					}
+                ]
+            },
+            {
+                "version": "0.1.0",
+                "name": "gd32vflash",
+                "systems":
+                [
+					{
+						"url": "https://raw.githubusercontent.com/KenjutsuGH/Longduino_GD32V_macos/main/binaries/gd32vflash-0.1.0.tar.gz",
+						"checksum": "SHA-256:bf90dbbff6db49923bd97bd2b2c53e7376e118a266dcaec0c43801d4c506c640",
+						"host": "x86_64-apple-darwin",
+						"archiveFileName": "gd32vflash-0.1.0.tar.gz",
+						"size": "60039"
+					}
+				]
+            }
+        ]
+    }
+    ]
+}
